@@ -1,0 +1,25 @@
+// Page 97,Number 5
+#include <iostream>
+#include <string>
+#include <cmath>
+#define PI 3.142
+using namespace std;
+
+int main()
+{
+  double j=1.5, circle;
+  
+  circle= PI * pow(j,2);
+  int ans{ 0 };
+  int x=10;
+  ans =pow(x,5);
+  cout<<ans<<endl;
+  
+  cout<<"\n\nThe area of this circle is: " <<circle<<"\n\n";
+  cout<<abs(9.5)<<"\n";
+  cout<<floor(0.7)<<"\n";
+  cout<<floor(-9.5)<<"\n";
+  cout<<ceil(8.5)<<"\n";
+  cout<<ceil(-8.5)<<"\n";
+  cout<<sqrt(pow(6,4))<<"\n";
+}
